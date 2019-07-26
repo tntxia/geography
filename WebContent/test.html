@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html ng-app="myapp">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="js/lib/jquery.js"></script>
+<script type="text/javascript" src="js/Stage.js"></script>
+<script type="text/javascript">
+
+$(function(){
+	
+	var container = $("#container");
+	
+	var stage = new Stage({
+		container:container
+	});
+	
+	stage.add({
+		type:'polygon',
+		path:[{
+			x:10,
+			y:20
+		},{
+			x:50,
+			y:60
+		},{
+			x:100,
+			y:100
+		}]
+	});
+	
+	stage.add({
+		type:'polygon',
+		style:{
+			fillStyle:'yellow'
+		},
+		path:[{
+			x:210,
+			y:220
+		},{
+			x:150,
+			y:160
+		},{
+			x:200,
+			y:200
+		}]
+	});
+	
+	stage.paint();
+	
+});
+
+</script>
+</head>
+<body>
+
+<div id="container" style="width:500px;height:500px;"></div>
+
+</body>
+</html>

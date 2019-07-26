@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<project name="geography" default="deploy" basedir=".">
+
+	<property file="build.properties" />
+	<property name="dist" value="${docBase}\${appName}">
+	</property>
+	<property name="resin.home" value="D:\resin\resin-3.2.0" />
+	<property name="tomcat.home" value="D:\tomcat" />
+	<property name="lib.dir" value="${basedir}/WebContent/WEB-INF/lib" />
+
+	<path id="compile.classpath">
+
+		<fileset dir="${tomcat.home}/lib">
+			<include name="*.jar" />
+		</fileset>
+
+		<fileset dir="${lib.dir}">
+			<include name="*.jar" />
+		</fileset>
+
+	</path>
+
+	<!-- 初始化创建文件夹   -->
+	<target name="init">
+		<mkdir dir="temp" />
+		<mkdir dir="${dist}" />
+		<mkdir dir="${dist}/WEB-INF" />
+		<mkdir dir="${dist}/WEB-INF/classes" />
+	</target>
+
+	<target name="compile" depends="init">
+		<javac srcdir="src" destdir="temp" includeantruntime="on" encoding="UTF-8" debug="on">
+			<classpath refid="compile.classpath">
+			</classpath>
+		</javac>
+		<copy todir="${dist}/WEB-INF/classes">
+			<fileset dir="temp"></fileset>
+		</copy>
+	</target>
+	<target name="deploy" depends="compile">
+		<copy todir="${dist}">
+			<fileset dir="WebContent">
+			</fileset>
+		</copy>
+	</target>
+
+	<target name="publish">
+		<jar destfile="${project}/WebContent/WEB-INF/lib/tntxia-geography-0.2.jar">
+			<fileset dir="temp">
+			</fileset>
+		</jar>
+	</target>
+</project>

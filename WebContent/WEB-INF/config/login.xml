@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<login>
+	<usertable>username</usertable>
+	<loginid>name</loginid>
+	<password>password</password>
+	<msg>用户名或密码出错！</msg>
+	<errorCountCheck>
+		<field>err</field>
+		<max>3</max>
+		<msg>该用户被锁定(三次错误输入密码,将被锁定),请与系统管理员联系!</msg>
+	</errorCountCheck>
+	<ipcheck>
+		<field>user_ip</field>
+		<isCheck>
+			<field>ipbd</field>
+			<compare>是</compare>
+		</isCheck>
+		<msg>用户登陆的IP检验失败，请使用办公电脑登陆！</msg>
+	</ipcheck>
+	<ip></ip>
+</login>

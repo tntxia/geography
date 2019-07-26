@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mvc>
+	<actionlist>
+		<action url="country.do">com.tntxia.geography.action.CountryAction</action>
+		<action url="province.do" name="province">com.tntxia.geography.action.ProvinceAction</action>
+		<action url="city.do" name="city">com.tntxia.geography.action.CityAction</action>
+		<action url="storeJSON.do">com.tntxia.geography.action.StoreMapJSONAction</action>
+		<action url="upload.do">com.tntxia.geography.action.UploadAction</action>
+	</actionlist>
+</mvc>

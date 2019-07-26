@@ -1,0 +1,556 @@
+.tntxiaui-picker-image {
+	padding: 0px 20px 2px 0px;
+	background:url('calendar.jpg') no-repeat;
+	cursor:pointer;
+}
+
+#tntxia-ui-popup-dialog {
+	border: 1px solid #0000FF;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	background: white;
+}
+
+#tntxia-ui-popup-dialog table{
+	width:100%;
+}
+
+#tntxia-ui-popup-dialog-bar {
+	background: blue;
+	width: 100%;
+	height: 25px;
+}
+
+#tntxia-ui-popup-dialog-year-month {
+	width: 100%;
+	height: 25px;
+	text-align: center;
+}
+
+#tntxia-ui-popup-dialog-dayline {
+	width: 100%;
+	height: 18px;
+}
+
+#tntxia-ui-popup-dialog-date-line-div {
+	width: 100%;
+	height: 100%;
+}
+
+.tntxia-ui-popup-dialog-dateline {
+	width: 100%;
+	height: 18px;
+}
+
+.tntxia-ui-popup-dialog-item {
+	height: 18px;
+	width: 24px;
+	font-size: 12px;
+	float: left;
+	text-align: center;
+	background: #8EBE0C;
+	border: 1px solid;
+	color: white;
+}
+
+.tntxia-ui-popup-dialog-todayitem {
+	height: 18px;
+	width: 24px;
+	font-size: 12px;
+	float: left;
+	text-align: center;
+	background: #FF8040;
+	border: 1px solid;
+	color: white;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.tntxia-ui-popup-dialog-filldateitem {
+	height: 18px;
+	width: 24px;
+	font-size: 12px;
+	float: left;
+	text-align: center;
+	background: green;
+	border: 1px solid;
+	color: white;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.tntxia-ui-popup-dialog-commonitem {
+	height: 18px;
+	width: 24px;
+	font-size: 12px;
+	float: left;
+	text-align: center;
+	background: #FFFFFF;
+	border: 1px solid;
+	color: #330066;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.tntxia-ui-popup-dialog-emptyitem {
+	height: 18px;
+	width: 24px;
+	float: left;
+	border: 1px solid;
+}
+
+.tntxia-ui-popup-dialog-clickitem {
+	background:cyan;
+}
+
+.tntxiaui-form{
+	font-size:12px;
+}
+
+.tntxia-ui-dialog-div{
+	border:1px solid;
+}
+
+.tntxiaui-datagrid{
+	font-size:12px;
+	border:1px solid;
+}
+
+.tntxiaui-datagrid th{
+	background:#d3d8eb;
+	font-size:12px;
+}
+
+.tntxiaui-datagrid td{
+	font-size:12px;
+}
+
+
+.tntxiaui-datagrid table{
+	border:1px solid;
+}
+
+.tntxiaui-datagrid a{
+	padding-left:6px;
+	text-decoration: underline;
+	color:blue;
+	cursor:pointer;
+}
+
+.tntxiaui-datagrid td,th{
+	border:1px solid;
+}
+
+.tntxiaui-datagrid-tr-hover{
+	background:#B5DAFF;
+}
+
+.tntxiaui-datagrid .nav{
+	text-align:right;
+}
+
+.tntxia-ui-datagrid-databody tr:nth-child(odd){
+	background:#eeeeee;
+}
+
+.tntxia-ui-dialog-close{
+	float:right;
+	background:url(close.png) no-repeat;
+	background-position: 5px 6px;
+	width:30px;
+	height:30px;
+	cursor:pointer;
+}
+
+.tntxia-ui-leftbar-mainitem{
+	border:1px solid blue;
+	padding:5px;
+	background:#04477C;
+	color:white;
+}
+
+.tntxia-ui-leftbar-list{
+	padding: 0px 20px;
+	margin: 0px;
+	background:#CBF3FB;
+}
+
+.tntxiaui-picker-image {
+	padding: 0px 20px 2px 0px;
+	background:url('calendar.jpg') no-repeat;
+	cursor:pointer;
+}
+
+#tntxia-ui-popup-dialog {
+	border: 1px solid #0000FF;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	background: white;
+}
+
+#tntxia-ui-popup-dialog table{
+	width:100%;
+}
+
+#tntxia-ui-popup-dialog-bar {
+	background: blue;
+	width: 100%;
+	height: 25px;
+}
+
+#tntxia-ui-popup-dialog-year-month {
+	width: 100%;
+	height: 25px;
+	text-align: center;
+}
+
+#tntxia-ui-popup-dialog-dayline {
+	width: 100%;
+	height: 18px;
+}
+
+#tntxia-ui-popup-dialog-date-line-div {
+	width: 100%;
+	height: 100%;
+}
+
+.tntxia-ui-popup-dialog-dateline {
+	width: 100%;
+	height: 18px;
+}
+
+.tntxia-ui-popup-dialog-item {
+	height: 18px;
+	width: 24px;
+	font-size: 12px;
+	float: left;
+	text-align: center;
+	background: #8EBE0C;
+	border: 1px solid;
+	color: white;
+}
+
+.tntxia-ui-popup-dialog-todayitem {
+	height: 18px;
+	width: 24px;
+	font-size: 12px;
+	float: left;
+	text-align: center;
+	background: #FF8040;
+	border: 1px solid;
+	color: white;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.tntxia-ui-popup-dialog-filldateitem {
+	height: 18px;
+	width: 24px;
+	font-size: 12px;
+	float: left;
+	text-align: center;
+	background: green;
+	border: 1px solid;
+	color: white;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.tntxia-ui-popup-dialog-commonitem {
+	height: 18px;
+	width: 24px;
+	font-size: 12px;
+	float: left;
+	text-align: center;
+	background: #FFFFFF;
+	border: 1px solid;
+	color: #330066;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.tntxia-ui-popup-dialog-emptyitem {
+	height: 18px;
+	width: 24px;
+	float: left;
+	border: 1px solid;
+}
+
+.tntxia-ui-popup-dialog-clickitem {
+	background:cyan;
+}
+
+.panel-header {
+  background-color: #E0ECFF;
+  background: -webkit-linear-gradient(top,#EFF5FF 0,#E0ECFF 100%);
+  background: -moz-linear-gradient(top,#EFF5FF 0,#E0ECFF 100%);
+  background: -o-linear-gradient(top,#EFF5FF 0,#E0ECFF 100%);
+  background: linear-gradient(to bottom,#EFF5FF 0,#E0ECFF 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#EFF5FF,endColorstr=#E0ECFF,GradientType=0);
+  border-color: #95B8E7;
+  padding: 5px;
+position: relative;
+}
+
+.panel-header, .panel-body {
+    border-width: 1px;
+    border-style: solid;
+}
+
+.panel-title {
+    font-size: 12px;
+    font-weight: bold;
+    color: #0E2D5F;
+    height: 16px;
+    line-height: 16px;
+}
+
+.accordion{
+	border: 1px solid #99BBE8;
+}
+
+.panel {
+    overflow: hidden;
+    font-size: 12px;
+	border: 1px solid #99BBE8;
+
+}
+
+.panel-fit, .panel-fit body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+}
+
+.title {
+    height: 26px;
+}
+.tabs-container {
+  overflow: hidden;
+}
+.tabs-header {
+  border-width: 1px;
+  border-style: solid;
+  border-bottom-width: 0;
+  position: relative;
+  padding: 0;
+  padding-top: 2px;
+  overflow: hidden;
+}
+
+.tabs-scroller-left,
+.tabs-scroller-right {
+  position: absolute;
+  top: auto;
+  bottom: 0;
+  width: 18px;
+  font-size: 1px;
+  display: none;
+  cursor: pointer;
+  border-width: 1px;
+  border-style: solid;
+}
+.tabs-scroller-left {
+  left: 0;
+}
+.tabs-scroller-right {
+  right: 0;
+}
+
+.tabs-wrap {
+  position: relative;
+  left: 0;
+  overflow: hidden;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.tabs-header-left .tabs-wrap,
+.tabs-header-right .tabs-wrap {
+  height: 100%;
+}
+.tabs-header-left .tabs {
+  height: 100%;
+  padding: 4px 0 0 4px;
+  border-width: 0 1px 0 0;
+}
+.tabs-header-right .tabs {
+  height: 100%;
+  padding: 4px 4px 0 0;
+  border-width: 0 0 0 1px;
+}
+.tabs-header-left .tabs li,
+.tabs-header-right .tabs li {
+  display: block;
+  width: 100%;
+  position: relative;
+}
+.tabs-header-left .tabs li {
+  left: auto;
+  right: 0;
+  margin: 0 -1px 4px 0;
+  float: right;
+}
+.tabs-header-right .tabs li {
+  left: 0;
+  right: auto;
+  margin: 0 0 4px -1px;
+  float: left;
+}
+.tabs-header-left .tabs li a.tabs-inner {
+  display: block;
+  text-align: left;
+  -moz-border-radius: 5px 0 0 5px;
+  -webkit-border-radius: 5px 0 0 5px;
+  border-radius: 5px 0 0 5px;
+}
+.tabs-header-right .tabs li a.tabs-inner {
+  display: block;
+  text-align: left;
+  -moz-border-radius: 0 5px 5px 0;
+  -webkit-border-radius: 0 5px 5px 0;
+  border-radius: 0 5px 5px 0;
+}
+.tabs-panels-right {
+  float: right;
+  border-width: 1px 1px 1px 0;
+}
+.tabs-panels-left {
+  float: left;
+  border-width: 1px 0 1px 1px;
+}
+.tabs-header-noborder,
+.tabs-panels-noborder {
+  border: 0px;
+}
+.tabs-header-plain {
+  border: 0px;
+  background: transparent;
+}
+.tabs-scroller-left {
+  background: #E0ECFF url('images/tabs_icons.png') no-repeat 1px center;
+}
+.tabs-scroller-right {
+  background: #E0ECFF url('images/tabs_icons.png') no-repeat -15px center;
+}
+.tabs li a.tabs-close {
+  background: url('images/tabs_icons.png') no-repeat -34px center;
+}
+.tabs li a.tabs-inner:hover {
+  background: #eaf2ff;
+  color: #000000;
+  filter: none;
+}
+.tabs li.tabs-selected a.tabs-inner {
+  background-color: #ffffff;
+  color: #0E2D5F;
+  background: -webkit-linear-gradient(top,#EFF5FF 0,#ffffff 100%);
+  background: -moz-linear-gradient(top,#EFF5FF 0,#ffffff 100%);
+  background: -o-linear-gradient(top,#EFF5FF 0,#ffffff 100%);
+  background: linear-gradient(to bottom,#EFF5FF 0,#ffffff 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#EFF5FF,endColorstr=#ffffff,GradientType=0);
+}
+.tabs-header-bottom .tabs li.tabs-selected a.tabs-inner {
+  background: -webkit-linear-gradient(top,#ffffff 0,#EFF5FF 100%);
+  background: -moz-linear-gradient(top,#ffffff 0,#EFF5FF 100%);
+  background: -o-linear-gradient(top,#ffffff 0,#EFF5FF 100%);
+  background: linear-gradient(to bottom,#ffffff 0,#EFF5FF 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffff,endColorstr=#EFF5FF,GradientType=0);
+}
+.tabs-header-left .tabs li.tabs-selected a.tabs-inner {
+  background: -webkit-linear-gradient(left,#EFF5FF 0,#ffffff 100%);
+  background: -moz-linear-gradient(left,#EFF5FF 0,#ffffff 100%);
+  background: -o-linear-gradient(left,#EFF5FF 0,#ffffff 100%);
+  background: linear-gradient(to right,#EFF5FF 0,#ffffff 100%);
+  background-repeat: repeat-y;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#EFF5FF,endColorstr=#ffffff,GradientType=1);
+}
+.tabs-header-right .tabs li.tabs-selected a.tabs-inner {
+  background: -webkit-linear-gradient(left,#ffffff 0,#EFF5FF 100%);
+  background: -moz-linear-gradient(left,#ffffff 0,#EFF5FF 100%);
+  background: -o-linear-gradient(left,#ffffff 0,#EFF5FF 100%);
+  background: linear-gradient(to right,#ffffff 0,#EFF5FF 100%);
+  background-repeat: repeat-y;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffff,endColorstr=#EFF5FF,GradientType=1);
+}
+.tabs li a.tabs-inner {
+  color: #0E2D5F;
+  background-color: #E0ECFF;
+  background: -webkit-linear-gradient(top,#EFF5FF 0,#E0ECFF 100%);
+  background: -moz-linear-gradient(top,#EFF5FF 0,#E0ECFF 100%);
+  background: -o-linear-gradient(top,#EFF5FF 0,#E0ECFF 100%);
+  background: linear-gradient(to bottom,#EFF5FF 0,#E0ECFF 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#EFF5FF,endColorstr=#E0ECFF,GradientType=0);
+}
+.tabs-header,
+.tabs-tool {
+  background-color: #E0ECFF;
+}
+.tabs-header-plain {
+  background: transparent;
+}
+.tabs-header,
+.tabs-scroller-left,
+.tabs-scroller-right,
+.tabs-tool,
+.tabs,
+.tabs-panels,
+.tabs li a.tabs-inner,
+.tabs li.tabs-selected a.tabs-inner,
+.tabs-header-bottom .tabs li.tabs-selected a.tabs-inner,
+.tabs-header-left .tabs li.tabs-selected a.tabs-inner,
+.tabs-header-right .tabs li.tabs-selected a.tabs-inner {
+  border-color: #95B8E7;
+}
+.tabs-p-tool a:hover,
+.tabs li a:hover.tabs-close,
+.tabs-scroller-over {
+  background-color: #eaf2ff;
+}
+.tabs li.tabs-selected a.tabs-inner {
+  border-bottom: 1px solid #ffffff;
+}
+.tabs-header-bottom .tabs li.tabs-selected a.tabs-inner {
+  border-top: 1px solid #ffffff;
+}
+.tabs-header-left .tabs li.tabs-selected a.tabs-inner {
+  border-right: 1px solid #ffffff;
+}
+.tabs-header-right .tabs li.tabs-selected a.tabs-inner {
+  border-left: 1px solid #ffffff;
+}
+
+.panel-header {
+    padding: 5px;
+    
+}
+
+.panel-tool {
+    right: 5px;
+    width: auto;
+    text-align:right;
+}
+
+.panel-tool a {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    margin: 0 0 0 2px;
+    vertical-align: top;
+    
+}
+
+.panel-tool-close {
+    background: url('panel_tools.png') no-repeat -16px 0px;
+}
